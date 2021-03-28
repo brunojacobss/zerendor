@@ -8,7 +8,12 @@ function App() {
         <h3>Z</h3>
         <div className="App-body">
           <p>WORK IN PROGRESS.</p>
-          <button>CONTACT</button>
+          <a
+            className="button"
+            href="https://i1.sndcdn.com/artworks-Uii8SMJvNPxy8ePA-romBoQ-t500x500.jpg"
+          >
+            CONTACT
+          </a>
         </div>
       </div>
     </div>

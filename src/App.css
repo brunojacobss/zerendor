@@ -18,7 +18,11 @@
   font-weight: 600;
 }
 
-button {
+a.button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration: none;
   background-color: black;
   border: 1px solid white;
   color: white;
@@ -26,7 +30,7 @@ button {
   font-size: 10px;
   letter-spacing: 0.1rem;
 }
-button:hover {
+a.button:hover {
   transition: 0.2s ease;
   -webkit-transition: 0.2s ease;
   background-color: white;
