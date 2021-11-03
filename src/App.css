@@ -2,8 +2,18 @@
   font-family: BelweBold;
   src: url(./BelweBold.otf) format('opentype');
 }
-.App {
-  text-align: center;
+html {
+  background: url(./Artboard_12.png) no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.Zere {
+  max-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
 }
 
 .App-header {
